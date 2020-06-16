@@ -9,7 +9,6 @@ export default function Routes() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/cart" component={Cart} />
-
     </Switch>
   );
 }
